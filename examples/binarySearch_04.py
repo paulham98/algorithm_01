@@ -13,3 +13,5 @@ def binarySearch(arr, targetNum):
             end = midIndex -1
         return -1
 print(binarySearch(arr, 4))
+
+
