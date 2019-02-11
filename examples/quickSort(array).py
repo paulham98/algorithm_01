@@ -6,8 +6,8 @@ def quickSort(array):
         pivot=array[0]
         less=[number for number in array[1:]if number <= pivot]
         greater = [number for number in array[1:]if number > pivot]
-        print("less:", less)
-        print("greater:", greater)
+        print(array, "less:", less)
+        print(array, "greater:", greater)
         return quickSort(less) + [pivot] + quickSort(greater)
 
 result = quickSort(numbers)
